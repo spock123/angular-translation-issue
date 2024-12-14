@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script>
+      var language;
+
+      try {
+        language = window.localStorage.getItem('preferredLanguage') || null;
+        if (!language) {
+          language = window.navigator.language.split('-')[0];
+        }
+      } catch (err) {
+        language = 'en';
+      }
+
+      if (!['en', 'da', 'it'].includes(language)) {
+        language = 'en';
+      }
+
+      // language='en';
+
+      console.info('Redirecting to ', `/${language}`);
+      window.location.replace('/' + language);
+    </script>
+  </head>
+  <body></body>
+</html>
