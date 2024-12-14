@@ -1,6 +1,7 @@
 {
   "locale": "es",
   "translations": {
-    "translate-me": "I am a spanish translated text"
+    "translate-me": "I am a spanish translated text",
+    "localize-translation": "I am a spanish $localize translation"
   }
 }
