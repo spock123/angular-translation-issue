@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "dev": "ng serve --open --configuration=en --no-hmr  ",
+    "dev": "ng serve --open --configuration=en",
     "dev:da": "ng serve  --configuration=da --open",
     "dev:es": "ng serve  --configuration=es --open",
     "dev:it": "ng serve  --configuration=it --open",
